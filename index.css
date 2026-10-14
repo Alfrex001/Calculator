@@ -1,0 +1,61 @@
+body{
+background-color: chartreuse;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+.container1{
+flex: 2;
+background-color:rgb(0, 0, 0) ;
+display: flex;
+justify-content: end;
+font-size: 10vh;
+color: white;
+}
+
+.container2{
+flex: 1;
+background-color: rgb(0, 0, 0);
+display: grid;
+grid-template-columns: repeat(4,60px);
+grid-template-rows: repeat(5,60px);
+justify-content: center;
+align-items: center;
+gap: 2vh;
+}
+.button{
+background-color:rgba(10, 10, 14, 0.829) ;
+border: none;
+height: 100%;
+border-radius: 100%;
+color: white;
+font-size: x-large;
+}
+
+.button1{
+background-color: rgb(26, 25, 25);
+border: none;
+height: 100%;
+border-radius: 100%;
+color: white;
+font-size: x-large;
+}
+
+.button2{
+background-color: azure;
+border: none;
+height: 100%;
+border-radius: 100%;
+color:black;
+font-size: x-large;
+}
+
+.button3{
+background-color: rgb(18, 185, 18);
+border: none;
+height: 100%;
+border-radius: 100%;
+color: white;
+font-size: x-large;
+
+}
